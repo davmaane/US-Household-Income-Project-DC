@@ -1,6 +1,15 @@
 # US-Household-Income-Project-DC
 📂 **[SQL Query](https://github.com/davmaane/US-Household-Income-Project-DC/blob/main/US%20Household%20Income%20Project%20DC.sql)**
 
+## Table of Contents
+* [Project Overview](#project-overview)
+* [Dataset Information](#dataset-information)
+* [Tools Used](#tools-used)
+* [Data Quality Assessment](#data-quality-assessment)
+* [Data Cleaning Process](#data-cleaning-process)
+* [Standardizing Data](#standardizing-data)
+* [Handling Missing Values](#handling-missing-values)
+* [Cleaned Dataset Summary](#cleaned-dataset-summary)
 
 ## Project Overview
 Income is a vital element when determining both quality and socio economic features of a given geographic location. This project focuses on cleaning and preparing for analysis a US Household Income Statistics Dataset.
