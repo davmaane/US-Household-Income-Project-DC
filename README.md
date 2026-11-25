@@ -1,10 +1,12 @@
 # US-Household-Income-Project-DC
+📂 **[SQL Query](https://github.com/davmaane/US-Household-Income-Project-DC/blob/main/US%20Household%20Income%20Project%20DC.sql)**
+
 
 ## Project Overview
 Income is a vital element when determining both quality and socio economic features of a given geographic location. This project focuses on cleaning and preparing for analysis a US Household Income Statistics Dataset.
 
 ## Dataset Information
-This dataset contains 32,000+ records on US Household Income Statistics and Geo Locations. The dataset covers 348,893 locations records.
+This dataset contains 32,000+ records on US Household Income Statistics and Geo Locations. The dataset covers 348,893 location records.
  
 - Source: Golden Oak Research Group, Kaggle
  
@@ -16,10 +18,11 @@ This dataset contains 32,000+ records on US Household Income Statistics and Geo 
 - SQL (MySQL)
 
 ## Data Quality Assessment
-Here are the problems i found:
+Here are the issues identified during the initial process:
 - Duplicate records
 - Blank values
 - Inconsistent text
+- 
 
 ## Data Cleaning Process
 
@@ -89,11 +92,10 @@ before:  <img width="222" height="133" alt="image" src="https://github.com/user-
 
 
 ## Cleaned Dataset Summary
-All that was done during this data cleaning process
+Key steps completed during the data cleaning process:
 - Removed 6 duplicate records
-- Text & Spelling Standardization on the 'State_name' and 'type' column
+- Text & Spelling Standardization on the 'State_name' and 'type' columns
 - Handled missing values in the 'place' column
-- Zero-Value Filtering: Excluded invalid `0` entries in `Mean` and `Median` income fields during statistical queries so unreported census tracts did not artificially lower state averages.
 - Checked every other column to make sure the dataset is ready for analysis
 
 The cleaned dataset was used for Exploratory Data Analysis (EDA) to uncover trends and insights.
