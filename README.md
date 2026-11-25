@@ -31,7 +31,7 @@ Here are the issues identified during the initial process:
 - Duplicate records
 - Blank values
 - Inconsistent text
-- 
+  
 
 ## Data Cleaning Process
 
