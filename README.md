@@ -91,8 +91,9 @@ before:  <img width="222" height="133" alt="image" src="https://github.com/user-
 ## Cleaned Dataset Summary
 All that was done during this data cleaning process
 - Removed 6 duplicate records
-- Standardized the 'State_name' and 'type' column
+- Text & Spelling Standardization on the 'State_name' and 'type' column
 - Handled missing values in the 'place' column
+- Zero-Value Filtering: Excluded invalid `0` entries in `Mean` and `Median` income fields during statistical queries so unreported census tracts did not artificially lower state averages.
 - Checked every other column to make sure the dataset is ready for analysis
 
 The cleaned dataset was used for Exploratory Data Analysis (EDA) to uncover trends and insights.
