@@ -98,4 +98,4 @@ All that was done during this data cleaning process
 
 The cleaned dataset was used for Exploratory Data Analysis (EDA) to uncover trends and insights.
 
-🔗 [View the EDA project here](https://github.com/davmaane/US-Household-Income-Project-EDA/tree/main)
+🔗 [View the EDA project](https://github.com/davmaane/US-Household-Income-Project-EDA/tree/main)
