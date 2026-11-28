@@ -39,7 +39,7 @@ Here is a quick overview of the dataset
 
 <img width="1377" height="282" alt="Screenshot 2026-11-21 080146" src="https://github.com/user-attachments/assets/b3c6a89e-9499-481b-b678-26c268354b7b" />
 
-Note: For reproducibility, the original raw .csv files are preserved untouched in this repository. in a production environment, the following UPDATE and DELETE transformations would be executed on a dedicated staging table.
+*(Note: For reproducibility, the original raw `.csv` file is preserved untouched in this repository. In a production environment, the following `UPDATE` and `DELETE` transformations would be executed on a dedicated staging table.)*
 
 ### Fixing Corrupted Column Headers 
 During initial import of the statistics table, a UTF-8 Byte Order Mark (BOM) encoding issue corrupted the primary key header name into `` `ï»¿id` ``, which would have broken table joins. I renamed the column cleanly before running any checks:
